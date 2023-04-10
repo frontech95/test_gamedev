@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nuxt": "^3.3.3",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2"
+  },
+  "dependencies": {
+    "@nuxtjs/vercel-builder": "^0.24.0",
+    "core-js": "^3.15.2",
+    "swiper": "^6.8.4"
+  }
+}
